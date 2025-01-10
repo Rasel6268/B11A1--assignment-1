@@ -11,6 +11,19 @@
     font-weight: 600;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+.primary-paragraph{
+    font-size: 14px;
+    opacity: .7;
+    text-align: left;
+    font-weight: 400;
+}
+.section-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    line-height: auto;
 }
 body{
     background-color: #fff;
@@ -18,15 +31,17 @@ body{
 }
 header{
     padding: 20px 130px 20px 130px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 80px;
 }
 
-ul{
+.list-container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-ul li {
+.list-container li {
     list-style: none;   
 }
 ul .logo{
@@ -52,9 +67,7 @@ ul li a{
     text-decoration: none;
     color: black;
 }
-.main-secton{
-    margin: 0 130px;
-}
+
 .hero-section{
     display: flex;
     justify-content: center;
@@ -63,7 +76,6 @@ ul li a{
     margin-top: 10px;
     padding: 70px 90px;
     background-color:#C6E4D6 ;
-    height: 476px;
     border-radius: 20px;
 }
 .hero-section .text-content p{
@@ -81,6 +93,7 @@ ul li a{
     line-height: auto;
     letter-spacing: 0%;
     margin: 13px 0;
+    
 }
 .hero-section .text-content button{
     padding: 15px 40px;
@@ -88,3 +101,76 @@ ul li a{
 .hero-section .image-content img{
     height: 335px;
 }
+.main-secton{
+    margin: 0 130px;
+}
+#pillars{
+   margin-top: 40px; 
+}
+.pillars-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 15px;
+
+
+}
+.container-item .iamge{
+    max-width: 60px;
+}
+.container-item .iamge img{
+    width: 100%;
+}
+.container-item h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.container-item p{
+    margin-top: 8px;
+    
+}
+#vision{
+    margin-top: 40px; 
+}
+#vision p{
+    margin-top: 8px;
+}
+.vision-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+   
+
+}
+.vision-container-item{
+    padding: 15px 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.vision-container-item h2{
+    font-size: 20px; 
+    font-weight: 700;
+    margin-top: 10px;
+}
+.vision-container .one{
+    background-color: #5490F5;
+}
+.vision-container .two{
+    background-color:#C6E4D6 ;
+}
+.vision-container .three{
+    background-color: #5490F5;
+}
+.vision-container-item p{
+    opacity: 1;
+}
+
+
+

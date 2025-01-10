@@ -171,6 +171,38 @@ ul li a{
 .vision-container-item p{
     opacity: 1;
 }
+.vision-container-item button{
+    margin: 15px 0;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+.vision-container-item .one{
+    background: #C6E4D6;
+}
+.vision-container-item .two{
+    background: #5490F5;
+}
+#quotation{
+    background-image: url('assets/q.png');
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    background-size: 60px ;
+    background-position: 17px 10px;
+    background-repeat: no-repeat;
+    margin: 30px 0;
+    padding: 40px 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+#quotation h1{
+    font-size: 16px;
+    line-height: 15px;
+    margin-top:10px;
+    color: #0E0E0E;
+}
+#quotation p{
+    padding-top: 2px;
+}
 
 
 

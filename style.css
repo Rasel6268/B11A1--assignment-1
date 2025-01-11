@@ -270,11 +270,18 @@ ul li a{
     gap: 15px;
     
 }
+.donate-item{
+    width: 200px;
+    margin: 20px 0;
+    
+}
 .donate-item button{
     background: #ffffff;
-    margin: 20px 0px;
-    padding: 40px 90px;
+    padding: 35px 35px;
+    font-size: 25px;
     border: none;
+    width: 100%;
+    font-weight: 700;
     border-radius: 8px;
     border: 1px solid #0e0e0e26;
     cursor: pointer;
@@ -302,6 +309,7 @@ ul li a{
 .donate-input button{
     margin: 20px 0;
     padding: 15px 40px;
+    
 }
 #Newsletter{
     background-color: #C6E4D6;

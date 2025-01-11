@@ -194,6 +194,12 @@ ul li a{
 .vision-container-item .two{
     background: #5490F5;
 }
+.vision-container-item .image{
+    width: 70px;
+}
+.vision-container-item .image img{
+    width: 100%;
+}
 #quotation{
     background: #ffffff;
     background-image: url('assets/q.png');

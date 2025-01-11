@@ -235,7 +235,11 @@ ul li a{
     gap: 10px;
 }
 .news-items .image-section{
-    width: 600px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .news-items .image-section img{
     width: 100%;
